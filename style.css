@@ -1,0 +1,110 @@
+/* CSS base para o site*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 20px 20px;
+    background-color: #000;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  header h1 span {
+    display: block;
+    font-size: 2rem;
+  }
+  
+  section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #333;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section h2 span {
+    color: orange;
+  }
+  
+  #sobre p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .botoes button {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #como-funciona .video {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #clientes .cliente {
+    background-color: #f26522;
+    color: #000;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #clientes .cliente h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  #clientes .cliente button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #contato .contato-opcoes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  #contato .contato-opcoes div {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
